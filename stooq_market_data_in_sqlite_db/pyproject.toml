@@ -1,0 +1,11 @@
+[project]
+name = "markets"
+version = "0.1.0"
+dependencies = [
+    "pandas",
+    "ruamel.yaml",
+    "platformdirs"
+]
+
+[project.scripts]
+markets = "markets.cli:main"

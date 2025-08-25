@@ -1,1 +1,32 @@
-venv
+# Virtual environment
+venv/
+
+# Temp, wip, local untracked files
+playground/
+playground.py
+
+# File with markets' quotations
+notowania.sqlite3
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Coverage
+.coverage
+htmlcov/
+.coveragerc
+
+# Pytest cache
+.pytest_cache/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE/editor settings (w razie przyszłych użyć)
+.vscode/
+.idea/
+
+# Logs
+*.log

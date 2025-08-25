@@ -1,0 +1,62 @@
+# my_markets.yaml
+# To jest główny plik konfiguracyjny.
+# Każdy element na liście to jeden rynek do obserwacji.
+
+# Wybrane przez użytkownika nazwy tickerów ze stooq.pl,
+# użytkownik dodaje nazwy **ticker** zgodne z nazwami rynków na stooq.pl
+# następnie oddaje swoją nazwę, zgodnie ze swoimi preferencjami
+
+- number: 1  # numer tylko orientacyjnie, nie ma wpływu na proces
+  ticker: WIG  # ticker b. wazny - musi być identyczny jak w na stooq.pl
+  name: WIG  # dowolna nazwa użytkownika, jak chce opisywać te dane
+- number: 2
+  ticker: WIG20
+  name: WIG20
+- number: 3
+  ticker: ^DJI
+  name: Dow Jones Industrial Average
+- number: 4
+  ticker: ^DJT
+  name: Dow Jones Transportation Average
+- number: 5
+  ticker: ^DAX
+  name: DAX
+- number: 6
+  ticker: ^FTM
+  name: FTSE
+- number: 7
+  ticker: XAUUSD
+  name: Gold
+- number: 8
+  ticker: XAGUSD
+  name: Silver
+- number: 9
+  ticker: EURUSD
+  name: EUR/USD
+- number: 10
+  ticker: GBPUSD
+  name: GBP/USD
+- number: 11
+  ticker: GBPJPY
+  name: GBP/JPY
+- number: 12
+  ticker: USDJPY
+  name: USD/JPY
+- number: 13
+  ticker: USDCAD
+  name: USD/CAD
+- number: 14
+  ticker: USDPLN
+  name: USD/PLN
+- number: 15
+  ticker: EURPLN
+  name: EUR/PLN
+- number: 16
+  ticker: GBPPLN
+  name: GBP/PLN
+- number: 17
+  ticker: CHFPLN
+  name: CHF/PLN
+- number: 18
+  ticker: BTC.V
+  name: bitcoin

@@ -1,0 +1,6 @@
+Metadata-Version: 2.4
+Name: markets
+Version: 0.1.0
+Requires-Dist: pandas
+Requires-Dist: ruamel.yaml
+Requires-Dist: platformdirs
